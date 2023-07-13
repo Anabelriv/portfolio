@@ -15,7 +15,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&family=Sacramento&display=swap"
     rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -55,7 +55,7 @@
   <!-- end of main page -->
 
   <!-- ABOUT -->
-  
+
   <div class="about">
     <div class="aboutme fontstyle">
       <h2>About Me</h2>
@@ -115,29 +115,42 @@
       <h3>Best Projects</h3>
       <p>See what I have been working on</p>
     </div>
-    <div class="container-fluid card-portfolio"> 
-      <div class="row" >
-          <div class="col-md-4">
-          <img src="https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_1280.jpg" class="card-img-top" alt="...">
-          </div>
+    <div class="card-group">
+      <div class="card">
+        <img src="https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_1280.jpg" class="card-img-top"
+          alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+            content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
         </div>
-        <div class="col-md-4">
-        <img src="https://cdn.pixabay.com/photo/2014/07/06/13/55/calculator-385506_1280.jpg" class="card-img-top" alt="...">  
+      </div>
+      <div class="card">
+        <img src="https://cdn.pixabay.com/photo/2014/07/06/13/55/calculator-385506_1280.jpg" class="card-img-top"
+          alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
         </div>
-        </div>
-        <div class="col-md-4">
-          <img src="https://cdn.pixabay.com/photo/2017/04/25/22/28/despaired-2261021_1280.jpg" class="card-img-top" alt="...">
-        </div>
-        </div>
-  
-      <div class="col">
-        <div class="card">
-          <img src="https://cdn.pixabay.com/photo/2015/06/24/16/36/office-820390_1280.jpg" class="card-img-top" alt="...">
-          
+      </div>
+      <div class="card">
+        <img src="https://cdn.pixabay.com/photo/2017/04/25/22/28/despaired-2261021_1280.jpg" class="card-img-top"
+          alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+            content. This card has even longer content than the first to show that equal height action.</p>
+          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
         </div>
       </div>
     </div>
-    </div>
+
+
+
+
+
     <!-- END of portfolio -->
     <!-- BLOG -->
     <div class="blog">
@@ -192,46 +205,47 @@
     <!-- Contact -->
     <div class="container-fluid contact">
       <div class="row">
-      <div class="col-md-4 contact fontstyle">
-        <h3>Contact Info:</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In commodi nesciunt nemo quisquam illum non eos doloremque ab, quo ex, facere, hic eligendi ipsam recusandae eum aut magnam rerum suscipit!</p>
-        <table class="table custom-table bg-transparent">
-          <tbody>
-            <tr class="bg-transparent">
-              <th class="bg-transparent" scope="row">Address:</th>
-              <td class="bg-transparent" >Givatayim, Israel</td>
-            </tr>
-            <tr class="bg-transparent">
-              <th class="bg-transparent" scope="row">Phone:</th>
-              <td class="bg-transparent">+972 52 751 8424</td>
-            </tr>
-            <tr class="bg-transparent">
-              <th class="bg-transparent" scope="row">Email:</th>
-              <td class="bg-transparent" >anabelriverav@gmail.com</td>
-            </tr>
-        </table>
+        <div class="col-md-4 contact fontstyle">
+          <h3>Contact Info:</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In commodi nesciunt nemo quisquam illum non eos
+            doloremque ab, quo ex, facere, hic eligendi ipsam recusandae eum aut magnam rerum suscipit!</p>
+          <table class="table custom-table bg-transparent">
+            <tbody>
+              <tr class="bg-transparent">
+                <th class="bg-transparent" scope="row">Address:</th>
+                <td class="bg-transparent">Givatayim, Israel</td>
+              </tr>
+              <tr class="bg-transparent">
+                <th class="bg-transparent" scope="row">Phone:</th>
+                <td class="bg-transparent">+972 52 751 8424</td>
+              </tr>
+              <tr class="bg-transparent">
+                <th class="bg-transparent" scope="row">Email:</th>
+                <td class="bg-transparent">anabelriverav@gmail.com</td>
+              </tr>
+          </table>
+        </div>
+        <div class="col-md-8 contact-form">
+          <form class="row g-3">
+            <div class="col-md-6">
+              <input type="name" class="form-control" id="name" placeholder="Your Name">
+            </div>
+            <div class="col-md-6">
+              <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+            </div>
+            <div class="col-12">
+              <input type="text" class="form-control" id="inputAddress" placeholder="Your Title">
+            </div>
+            <div class="col-12">
+
+              <textarea class="form-control" placeholder="Your Message" id="inputAddress2" rows="3"></textarea>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-dark">Send message</button>
+            </div>
+          </form>
+        </div>
       </div>
-      <div class="col-md-8 contact-form">
-        <form class="row g-3">
-          <div class="col-md-6">
-            <input type="name" class="form-control" id="name" placeholder="Your Name">
-          </div>
-          <div class="col-md-6">
-            <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-          </div>
-          <div class="col-12">
-            <input type="text" class="form-control" id="inputAddress" placeholder="Your Title">
-          </div>
-          <div class="col-12">
-          
-            <textarea class="form-control" placeholder="Your Comment" id="inputAddress2" rows="3"></textarea>
-          </div>
-          <div class="col-12">
-            <button type="submit" class="btn btn-dark">Send message</button>
-          </div>
-        </form>
-      </div>
-    </div>
     </div>
 
     <!-- end of contact -->
