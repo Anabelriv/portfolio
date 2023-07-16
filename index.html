@@ -44,11 +44,11 @@
   <div class="maincover">
     <div id="intro">
       <div>
-        <h5>Solutions Engineer </h5>
+        <h5 style="font-size: 3rem;">Solutions Engineer </h5>
       </div>
 
       <div>
-        <h1>Anabel Rivera</h1>
+        <h1 style="font-size: 5rem;">Anabel Rivera</h1>
       </div>
     </div>
   </div>
@@ -115,42 +115,35 @@
       <h3>Best Projects</h3>
       <p>See what I have been working on</p>
     </div>
-    <div class="card-group">
-      <div class="card">
-        <img src="https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_1280.jpg" class="card-img-top"
-          alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-            content. This content is a little bit longer.</p>
-          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+  
+    <!-- gallery -->
+    
+    <div class="d-flex justify-content-center">   
+    <div class="row row-cols-1 row-cols-md-3 g-0" style="width: 60rem;">
+      <div class="col" style="width: 20rem;">
+        <div class="card">
+          <img src="https://cdn.pixabay.com/photo/2017/04/25/22/28/despaired-2261021_1280.jpg" class="card-img-top" alt="...">
         </div>
       </div>
-      <div class="card">
-        <img src="https://cdn.pixabay.com/photo/2014/07/06/13/55/calculator-385506_1280.jpg" class="card-img-top"
-          alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+      <div class="col" style="width: 20rem;">
+        <div class="card">
+          <img src="https://cdn.pixabay.com/photo/2017/04/25/22/28/despaired-2261021_1280.jpg" class="card-img-top" alt="...">
+          
         </div>
       </div>
-      <div class="card">
-        <img src="https://cdn.pixabay.com/photo/2017/04/25/22/28/despaired-2261021_1280.jpg" class="card-img-top"
-          alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-            content. This card has even longer content than the first to show that equal height action.</p>
-          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+      <div class="col" style="width: 20rem;">
+        <div class="card">
+          <img src="https://cdn.pixabay.com/photo/2014/07/06/13/55/calculator-385506_1280.jpg" class="card-img-top" alt="...">
         </div>
       </div>
+      <div class="col" style="width: 20rem;">
+        <div class="card">
+          <img src="https://cdn.pixabay.com/photo/2014/07/06/13/55/calculator-385506_1280.jpg" class="card-img-top" alt="...">
+        </div>
+      </div>
+    </div> 
     </div>
-
-
-
-
-
+  </div>
     <!-- END of portfolio -->
     <!-- BLOG -->
     <div class="blog">
@@ -159,7 +152,50 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, amet quisquam commodi doloribus dolor
           rerum, neque rem possimus laudantium nam, voluptates ut a modi magni quis assumenda ea ex distinctio.</p>
       </div>
-      <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="d-flex justify-content-center">
+      <div id="carouselExampleCaptions" class="carousel slide" style="width: 50rem;">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner" style="width: 50rem;">
+          <div class="carousel-item active">
+            <img src="https://cdn.pixabay.com/photo/2014/07/06/13/55/calculator-385506_1280.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item" style="width: 50rem;">
+            <img src="https://cdn.pixabay.com/photo/2017/04/25/22/28/despaired-2261021_1280.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item" style="width: 50rem;">
+            <img src="https://cdn.pixabay.com/photo/2017/04/25/22/28/despaired-2261021_1280.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+      <!-- Option2 -->
+      </div class="d-flex justify-content-center">
+      <div class="row row-cols-1 row-cols-md-3 g-4" style="width: 60rem;">
         <div class="col">
           <div class="card h-100">
             <img src="..." class="card-img-top" alt="...">
@@ -201,15 +237,16 @@
         </div>
       </div>
     </div>
+    </div>
     <!-- end of blog -->
     <!-- Contact -->
     <div class="container-fluid contact">
       <div class="row">
-        <div class="col-md-4 contact fontstyle">
+        <div class="col-md-5 contact fontstyle">
           <h3>Contact Info:</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In commodi nesciunt nemo quisquam illum non eos
             doloremque ab, quo ex, facere, hic eligendi ipsam recusandae eum aut magnam rerum suscipit!</p>
-          <table class="table custom-table bg-transparent">
+          <table class="table custom-table bg-transparent ">
             <tbody>
               <tr class="bg-transparent">
                 <th class="bg-transparent" scope="row">Address:</th>
@@ -225,7 +262,7 @@
               </tr>
           </table>
         </div>
-        <div class="col-md-8 contact-form">
+        <div class="col-md-7 contact-form">
           <form class="row g-3">
             <div class="col-md-6">
               <input type="name" class="form-control" id="name" placeholder="Your Name">
